@@ -1,0 +1,82 @@
+body { background-color: #ffffff;}  
+h1, h2, h3 { font-weight: 700;}
+
+
+
+/* navbar start */
+header nav { margin: .7rem 0;}
+header nav .navbar-nav {margin-left: 55%;}
+header nav .navbar-brand img { max-width: 300px;}
+header .dropdown-menu .dropdown-item { background-color: #ffffff; color: #616161; font-weight: 600;}
+header .dropdown-menu .dropdown-item:hover { background-color: #90c75d; color: #ffffff;}
+
+
+
+ /* header start */
+ header {height: 550px;}
+ header h1 { margin: 20% 0 8% 0; font-size: 3rem;}
+ header h1 .penguin { color: #ffac11;}
+ header .imageArea img { max-width: 80%; margin: 0 0 10% 20%;}
+
+ @media only screen and (max-width: 1200px) and (min-width: 768px) {
+    header{margin-bottom: 80%;}
+    header .imageArea img { max-width: 70%;}
+ }
+ @media only screen and (max-width: 768px) and (min-width: 350px) {
+    header {margin-bottom: 100%;}}
+
+
+
+/* jackets & shoes */
+.card {
+    padding: 1rem 1rem 0 1rem; margin: 0 auto;
+    text-align: left; border: none; 
+    border-radius: 1rem; background-color: #fff; 
+    box-shadow: .1rem .1rem .4rem #cfcfcf, -.1rem -.1rem .4rem #cfcfcf;
+}
+h2 {margin: 5rem 0 2rem 0;}
+h3 { color: #ffac11;}
+h5, .card-text {margin-left: -1rem;}
+.card img { max-width: 330px;}
+.card:hover {transform: scale(1.03);}
+.buy-now-button { 
+    background-image: linear-gradient(-60deg, #6dc000, #6fe600);
+    border: none; border-radius: .5rem;
+    color: white; font-weight: 600; 
+    padding: .3rem 1.2rem;
+    font-size: 1.2rem;
+}
+.card .row .buy-now-button {margin-left: 30%;}
+.card .row .buy-now-button i{ margin-right: .5rem;}
+
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+    .card .row .buy-now-button {margin-left: 0;}
+ }
+ @media only screen and (max-width: 768px) and (min-width: 350px) {
+    .card {padding: 1rem auto;}
+    .card img {width: 100%; margin: 0 auto;}
+    h3 { margin-right: 3rem;}
+    .card .row .buy-now-button {margin: auto;}
+ }
+
+
+
+/* about section */
+.about { margin: 5rem 0;}
+.about img { max-width: 100px; margin-top: -3rem;}
+.about .row-2 { 
+    padding: 4rem 0; margin: 1rem 0;
+    box-shadow: .1rem .1rem .4rem #cfcfcf, -.1rem -.1rem .4rem #cfcfcf;
+    border-radius: .5rem;
+}
+.about .row-2:hover {transform: scale(1.03);}
+.about .float-right {max-width: 70%; margin-top: -8%;}
+.about .XMLID{ max-width: 100%;  margin-top: 13%;}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px)  {
+    .about .float-right {max-width: 70%; margin-top: -12%;}}
+@media only screen and (max-width: 768px) and (min-width: 350px)  {
+    .about .row-2{padding-bottom: 10rem;}
+    .about .float-left {max-width: 20%; margin: 1% 65% 10% 35%;}
+    .about .float-right {max-width: 100%; text-align: center;}
+ }
